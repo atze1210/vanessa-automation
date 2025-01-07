@@ -47,7 +47,7 @@ elif step == "2":
     path2file = sys.argv[2]
     file = open(path2file, 'r')
     while True:
-        line = file.readline()
+        line = file.readline(5_000_000)
         if not line:
             break
         stroka = unicode(line, 'utf-8')
