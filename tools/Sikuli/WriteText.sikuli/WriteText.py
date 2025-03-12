@@ -45,13 +45,13 @@ if step == "1":
 elif step == "2":
     #type('n', KeyModifier.CTRL)
     path2file = sys.argv[2]
-    file = open(path2file, 'r')
-    while True:
-        line = file.readline()
-        if not line:
-            break
-        stroka = unicode(line, 'utf-8')
-        VyvestiStrokuPosimvolno(stroka)
+    with open(path2file, 'r') as file:
+        while True:
+            line = file.readline()
+            if not line:
+                break
+            stroka = unicode(line, 'utf-8')
+            VyvestiStrokuPosimvolno(stroka)
     sleep(BigBreak)
     exit(0)
 # Сохранение текста
