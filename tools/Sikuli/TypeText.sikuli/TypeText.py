@@ -6,7 +6,7 @@ import sys.argv
 #print sys.argv[0]
 file = open(sys.argv[1], 'r')
 while True:
-    line = file.readline()
+    line = file.readline(5_000_000)
     if not line:
         break
     stroka = unicode(line, 'utf-8')
