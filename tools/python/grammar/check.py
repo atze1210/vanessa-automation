@@ -3,6 +3,7 @@ import sys
 from xml.etree import ElementTree as Et
 
 from pyaspeller import YandexSpeller
+import defusedxml.ElementTree
 
 speller = YandexSpeller(lang="ru", ignore_urls=True, ignore_latin=True)
 
@@ -57,7 +58,7 @@ def getChildItems(obj: Et.Element) -> dict:
 
 
 def parseXML(path_to_form: str):
-    form = Et.parse(os.path.abspath(path_to_form)).getroot()
+    form = defusedxml.ElementTree.parse(os.path.abspath(path_to_form)).getroot()
     return getChildItems(form)
 
 
