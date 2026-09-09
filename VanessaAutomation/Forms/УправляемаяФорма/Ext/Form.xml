@@ -21624,6 +21624,79 @@ Om fältet är tomt skrivs loggen inte ut till en textfil.</v8:content>
 																</UsualGroup>
 															</ChildItems>
 														</UsualGroup>
+														<UsualGroup name="ГруппаЛогТекстЧетвертаяСтрока" id="4520">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа лог текст четвертая строка</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>group log text fourth line</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>sv</v8:lang>
+																	<v8:content>grupp loggtext fjärde raden</v8:content>
+																</v8:item>
+															</Title>
+															<Group>AlwaysHorizontal</Group>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаЛогТекстЧетвертаяСтрокаРасширеннаяПодсказка" id="4521"/>
+															<ChildItems>
+																<UsualGroup name="ГруппаЛогТекстЧетвертаяСтрокаЛевыйСтолбец" id="4522">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа лог текст четвертая строка левый столбец</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>group log text fourth line left column</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>sv</v8:lang>
+																			<v8:content>grupp loggtext fjärde raden vänster kolumn</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Width>50</Width>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаЛогТекстЧетвертаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="4523"/>
+																	<ChildItems>
+																		<InputField name="РазмерБуфераЛогаВыполненияСценариев" id="4524">
+																			<DataPath>Объект.РазмерБуфераЛогаВыполненияСценариев</DataPath>
+																			<TitleLocation>Top</TitleLocation>
+																			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																			<ContextMenu name="РазмерБуфераЛогаВыполненияСценариевКонтекстноеМеню" id="4525"/>
+																			<ExtendedTooltip name="РазмерБуфераЛогаВыполненияСценариевРасширеннаяПодсказка" id="4526">
+																				<AutoMaxWidth>false</AutoMaxWidth>
+																				<Title formatted="false">
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Сколько записей (шагов) накапливать в буфере перед записью в текстовый файл одним обращением к файлу.
+0 или 1 - запись как раньше, построчно.
+Больше 1 - накопление в буфере и запись порциями.</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>How many records (steps) to accumulate in the buffer before writing to the text file in one file access.
+0 or 1 - write as before, line by line.
+More than 1 - accumulate in buffer and write in batches.</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>sv</v8:lang>
+																						<v8:content>Hur många poster (steg) som ska samlas i bufferten innan de skrivs till textfilen i en filåtkomst.
+																					0 eller 1 - skriv som förut, rad för rad.
+																					Mer än 1 - samla i buffert och skriv i omgångar.</v8:content>
+																					</v8:item>
+																				</Title>
+																			</ExtendedTooltip>
+																		</InputField>
+																	</ChildItems>
+																</UsualGroup>
+															</ChildItems>
+														</UsualGroup>
 													</ChildItems>
 												</UsualGroup>
 												<UsualGroup name="ГруппаAllure" id="1536">
