@@ -448,6 +448,12 @@ A structure that will contain key and value pairs. This structure will be loaded
          Vanessa Automation log file name.
          If the field is empty, then the log will not be output to a text file.
 
+      * **textlogbuffersize**:
+         How many records (steps) to accumulate in the buffer before writing to the text file in one file access.
+         0 or 1 - write as before, line by line.
+         More than 1 - accumulate in buffer and write in batches; the buffer is flushed when full and after each scenario finishes.
+         With a value greater than 1 the file writing is no longer fully line-by-line: the current step may appear in the file with a delay (until the buffer is full).
+
       * **maskpwdinlog**:
          The user's password is masked in the log /P"*****"
 
