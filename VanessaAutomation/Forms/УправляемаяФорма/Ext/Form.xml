@@ -14230,11 +14230,11 @@ Inställningen tillämpas endast om feature-filer laddas från katalogen.</v8:co
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Group inclusion vanessa ext first row left column</v8:content>
+																			<v8:content>Group inclusion vanessa ext first row right column</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>sv</v8:lang>
-																			<v8:content>Grupp inkludering VanessaExt första raden vänster kolumn</v8:content>
+																			<v8:content>Grupp inkludering VanessaExt första raden höger kolumn</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Representation>None</Representation>
@@ -16406,11 +16406,11 @@ Vid körning av tester från kommandoraden, för att skapa variabler, behöver d
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Setting group basic other second row left column</v8:content>
+																			<v8:content>Setting group basic other second row right column</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>sv</v8:lang>
-																			<v8:content>Inställningsgrupp grundläggande övrigt andra raden vänster kolumn</v8:content>
+																			<v8:content>Inställningsgrupp grundläggande övrigt andra raden höger kolumn</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Representation>None</Representation>
@@ -19358,11 +19358,11 @@ Om parametern är 0 väntar kommandon tills körningen är klar utan att kontrol
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Group subsystem test execution stabilization third row left column</v8:content>
+																			<v8:content>Group subsystem test execution stabilization third row right column</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>sv</v8:lang>
-																			<v8:content>Grupp undersystem stabilisering av testkörning tredje raden vänster kolumn</v8:content>
+																			<v8:content>Grupp undersystem stabilisering av testkörning tredje raden höger kolumn</v8:content>
 																		</v8:item>
 																	</Title>
 																	<Group>Vertical</Group>
@@ -21930,7 +21930,6 @@ More than 1 - accumulate in buffer and write in batches.</v8:content>
 																							<v8:content>Allure-grupp grundinställningar första raden höger kolumn</v8:content>
 																						</v8:item>
 																					</Title>
-																					<Group>Vertical</Group>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиПерваяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3694"/>
@@ -21961,6 +21960,110 @@ This option should be used with caution, as it requires additional resources to 
 																								</Title>
 																							</ExtendedTooltip>
 																						</CheckBoxField>
+																					</ChildItems>
+																				</UsualGroup>
+																			</ChildItems>
+																		</UsualGroup>
+																		<UsualGroup name="ГруппаAllureОсновныеНастройкиВтораяСтрока" id="4530">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа allure основные настройки вторая строка</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Allure group basic settings second line</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>sv</v8:lang>
+																					<v8:content>Allure-grupp grundinställningar andra raden</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Group>AlwaysHorizontal</Group>
+																			<Representation>None</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиВтораяСтрокаРасширеннаяПодсказка" id="4531"/>
+																			<ChildItems>
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиВтораяСтрокаЛевыйСтолбец" id="4532">
+																					<Title>
+																						<v8:item>
+																							<v8:lang>ru</v8:lang>
+																							<v8:content>Группа allure основные настройки вторая строка левый столбец</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Allure group main settings second row left column</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>sv</v8:lang>
+																							<v8:content>Allure-grupp huvudinställningar andra raden vänster kolumn</v8:content>
+																						</v8:item>
+																					</Title>
+																					<Width>50</Width>
+																					<HorizontalStretch>false</HorizontalStretch>
+																					<Representation>None</Representation>
+																					<ShowTitle>false</ShowTitle>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиВтораяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="4533"/>
+																					<ChildItems>
+																						<CheckBoxField name="ОбъединятьПримерыСтруктурыСценарияВAllure" id="4527">
+																							<DataPath>Объект.ОбъединятьПримерыСтруктурыСценарияВAllure</DataPath>
+																							<Title>
+																								<v8:item>
+																									<v8:lang>ru</v8:lang>
+																									<v8:content>Объединять примеры структуры сценария в Allure</v8:content>
+																								</v8:item>
+																								<v8:item>
+																									<v8:lang>en</v8:lang>
+																									<v8:content>Merge scenario outline examples in Allure</v8:content>
+																								</v8:item>
+																								<v8:item>
+																									<v8:lang>sv</v8:lang>
+																									<v8:content>Slå ihop scenariooutline-exempel i Allure</v8:content>
+																								</v8:item>
+																							</Title>
+																							<TitleLocation>Right</TitleLocation>
+																							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																							<CheckBoxType>Auto</CheckBoxType>
+																							<ContextMenu name="ОбъединятьПримерыСтруктурыСценарияВAllureКонтекстноеМеню" id="4528"/>
+																							<ExtendedTooltip name="ОбъединятьПримерыСтруктурыСценарияВAllureРасширеннаяПодсказка" id="4529">
+																								<AutoMaxWidth>false</AutoMaxWidth>
+																								<Title formatted="false">
+																									<v8:item>
+																										<v8:lang>ru</v8:lang>
+																										<v8:content>Все примеры одной структуры сценария выгружаются в отчет Allure как один тест-кейс с параметрами.</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>en</v8:lang>
+																										<v8:content>All examples of one scenario outline are exported to the Allure report as a single test case with parameters.</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>sv</v8:lang>
+																										<v8:content>Alla exempel från en scenariooutline exporteras till Allure-rapporten som ett testfall med parametrar.</v8:content>
+																									</v8:item>
+																								</Title>
+																							</ExtendedTooltip>
+																						</CheckBoxField>
+																					</ChildItems>
+																				</UsualGroup>
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиВтораяСтрокаПравыйСтолбец" id="4534">
+																					<Title>
+																						<v8:item>
+																							<v8:lang>ru</v8:lang>
+																							<v8:content>Группа allure основные настройки вторая строка правый столбец</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Allure group main settings second row right column</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>sv</v8:lang>
+																							<v8:content>Allure-grupp huvudinställningar andra raden höger kolumn</v8:content>
+																						</v8:item>
+																					</Title>
+																					<Representation>None</Representation>
+																					<ShowTitle>false</ShowTitle>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиВтораяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="4535"/>
+																					<ChildItems>
 																						<InputField name="СписокИсключаемыхПеременныхAllure" id="4140">
 																							<DataPath>Объект.СписокИсключаемыхПеременныхAllure</DataPath>
 																							<Title>
@@ -22074,46 +22177,46 @@ This option should be used with caution, as it requires additional resources to 
 																				</UsualGroup>
 																			</ChildItems>
 																		</UsualGroup>
-																		<UsualGroup name="ГруппаAllureОсновныеНастройкиВтораяСтрока" id="3639">
+																		<UsualGroup name="ГруппаAllureОсновныеНастройкиТретьяСтрока" id="3639">
 																			<Title>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
-																					<v8:content>Группа allure основные настройки вторая строка</v8:content>
+																					<v8:content>Группа allure основные настройки третья строка</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>en</v8:lang>
-																					<v8:content>Group allure basic settings second line</v8:content>
+																					<v8:content>Group allure basic settings third line</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>sv</v8:lang>
-																					<v8:content>Grupp Allure grundinställningar andra raden</v8:content>
+																					<v8:content>Grupp Allure grundinställningar tredje raden</v8:content>
 																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
-																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиВтораяСтрокаРасширеннаяПодсказка" id="3640"/>
+																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиТретьяСтрокаРасширеннаяПодсказка" id="3640"/>
 																			<ChildItems>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиВтораяСтрокаЛевыйСтолбец" id="3641">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиТретьяСтрокаЛевыйСтолбец" id="3641">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки вторая строка левый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки третья строка левый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group main settings second row left column</v8:content>
+																							<v8:content>Allure group main settings third row left column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp huvudinställningar andra raden vänster kolumn</v8:content>
+																							<v8:content>Allure-grupp huvudinställningar tredje raden vänster kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Width>50</Width>
 																					<HorizontalStretch>false</HorizontalStretch>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиВтораяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3642"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиТретьяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3642"/>
 																					<ChildItems>
 																						<InputField name="КаталогВыгрузкиAllure" id="141">
 																							<DataPath>Объект.КаталогВыгрузкиAllure</DataPath>
@@ -22245,24 +22348,24 @@ This option should be used with caution, as it requires additional resources to 
 																						</InputField>
 																					</ChildItems>
 																				</UsualGroup>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиВтораяСтрокаПравыйСтолбец" id="3643">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиТретьяСтрокаПравыйСтолбец" id="3643">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки вторая строка правый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки третья строка правый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group main settings second row right column</v8:content>
+																							<v8:content>Allure group main settings third row right column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp huvudinställningar andra raden höger kolumn</v8:content>
+																							<v8:content>Allure-grupp huvudinställningar tredje raden höger kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиВтораяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3644"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиТретьяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3644"/>
 																					<ChildItems>
 																						<InputField name="КаталогВыгрузкиAllureБазовый" id="2243">
 																							<DataPath>Объект.КаталогВыгрузкиAllureБазовый</DataPath>
@@ -22310,46 +22413,46 @@ This option should be used with caution, as it requires additional resources to 
 																				</UsualGroup>
 																			</ChildItems>
 																		</UsualGroup>
-																		<UsualGroup name="ГруппаAllureОсновныеНастройкиТретьяСтрока" id="3645">
+																		<UsualGroup name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрока" id="3645">
 																			<Title>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
-																					<v8:content>Группа allure основные настройки третья строка</v8:content>
+																					<v8:content>Группа allure основные настройки четвертая строка</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>en</v8:lang>
-																					<v8:content>Allure group basic settings third line</v8:content>
+																					<v8:content>Allure group basic settings fourth line</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>sv</v8:lang>
-																					<v8:content>Allure-grupp grundinställningar tredje raden</v8:content>
+																					<v8:content>Allure-grupp grundinställningar fjärde raden</v8:content>
 																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
-																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиТретьяСтрокаРасширеннаяПодсказка" id="3646"/>
+																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаРасширеннаяПодсказка" id="3646"/>
 																			<ChildItems>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиТретьяСтрокаЛевыйСтолбец" id="3647">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаЛевыйСтолбец" id="3647">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки третья строка левый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки четвертая строка левый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group main settings third row left column</v8:content>
+																							<v8:content>Allure group main settings fourth row left column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp huvudinställningar tredje raden vänster kolumn</v8:content>
+																							<v8:content>Allure-grupp huvudinställningar fjärde raden vänster kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Width>50</Width>
 																					<HorizontalStretch>false</HorizontalStretch>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиТретьяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3648"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3648"/>
 																					<ChildItems>
 																						<InputField name="УровеньОтчета1" id="1863">
 																							<DataPath>Объект.УровеньОтчета1</DataPath>
@@ -22376,24 +22479,24 @@ This option should be used with caution, as it requires additional resources to 
 																						</InputField>
 																					</ChildItems>
 																				</UsualGroup>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиТретьяСтрокаПравыйСтолбец" id="3649">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаПравыйСтолбец" id="3649">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки третья строка правый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки четвертая строка правый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group main settings third row left column</v8:content>
+																							<v8:content>Allure group main settings fourth row right column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp huvudinställningar tredje raden vänster kolumn</v8:content>
+																							<v8:content>Allure-grupp huvudinställningar fjärde raden höger kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиТретьяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3650"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3650"/>
 																					<ChildItems>
 																						<InputField name="УровеньОтчета2" id="1866">
 																							<DataPath>Объект.УровеньОтчета2</DataPath>
@@ -22422,46 +22525,46 @@ This option should be used with caution, as it requires additional resources to 
 																				</UsualGroup>
 																			</ChildItems>
 																		</UsualGroup>
-																		<UsualGroup name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрока" id="3651">
+																		<UsualGroup name="ГруппаAllureОсновныеНастройкиПятаяСтрока" id="3651">
 																			<Title>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
-																					<v8:content>Группа allure основные настройки четвертая строка</v8:content>
+																					<v8:content>Группа allure основные настройки пятая строка</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>en</v8:lang>
-																					<v8:content>Allure group basic settings fourth line</v8:content>
+																					<v8:content>Allure group basic settings fifth line</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>sv</v8:lang>
-																					<v8:content>Allure-grupp grundinställningar fjärde raden</v8:content>
+																					<v8:content>Allure-grupp grundinställningar femte raden</v8:content>
 																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
-																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаРасширеннаяПодсказка" id="3652"/>
+																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиПятаяСтрокаРасширеннаяПодсказка" id="3652"/>
 																			<ChildItems>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаЛевыйСтолбец" id="3653">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиПятаяСтрокаЛевыйСтолбец" id="3653">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки четвертая строка левый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки пятая строка левый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group basic settings fourth row left column</v8:content>
+																							<v8:content>Allure group basic settings fifth row left column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp grundinställningar fjärde raden vänster kolumn</v8:content>
+																							<v8:content>Allure-grupp grundinställningar femte raden vänster kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Width>50</Width>
 																					<HorizontalStretch>false</HorizontalStretch>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3654"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиПятаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3654"/>
 																					<ChildItems>
 																						<InputField name="УровеньОтчета3" id="1869">
 																							<DataPath>Объект.УровеньОтчета3</DataPath>
@@ -22488,24 +22591,24 @@ This option should be used with caution, as it requires additional resources to 
 																						</InputField>
 																					</ChildItems>
 																				</UsualGroup>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаПравыйСтолбец" id="3655">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиПятаяСтрокаПравыйСтолбец" id="3655">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки четвертая строка правый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки пятая строка правый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group main settings fourth row right column</v8:content>
+																							<v8:content>Allure group main settings fifth row right column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp huvudinställningar fjärde raden höger kolumn</v8:content>
+																							<v8:content>Allure-grupp huvudinställningar femte raden höger kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиЧетвертаяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3656"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиПятаяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3656"/>
 																					<ChildItems>
 																						<InputField name="КаталогОтносительноКоторогоНадоСтроитьИерархию" id="1872">
 																							<DataPath>Объект.КаталогОтносительноКоторогоНадоСтроитьИерархию</DataPath>
@@ -22567,46 +22670,46 @@ This option should be used with caution, as it requires additional resources to 
 																				</UsualGroup>
 																			</ChildItems>
 																		</UsualGroup>
-																		<UsualGroup name="ГруппаAllureОсновныеНастройкиПятаяСтрока" id="3657">
+																		<UsualGroup name="ГруппаAllureОсновныеНастройкиШестаяСтрока" id="3657">
 																			<Title>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
-																					<v8:content>Группа allure основные настройки пятая строка</v8:content>
+																					<v8:content>Группа allure основные настройки шестая строка</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>en</v8:lang>
-																					<v8:content>Allure group basic settings fifth line</v8:content>
+																					<v8:content>Allure group basic settings sixth line</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>sv</v8:lang>
-																					<v8:content>Allure-grupp grundinställningar femte raden</v8:content>
+																					<v8:content>Allure-grupp grundinställningar sjätte raden</v8:content>
 																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
-																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиПятаяСтрокаРасширеннаяПодсказка" id="3658"/>
+																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиШестаяСтрокаРасширеннаяПодсказка" id="3658"/>
 																			<ChildItems>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиПятаяСтрокаЛевыйСтолбец" id="3659">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиШестаяСтрокаЛевыйСтолбец" id="3659">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки пятая строка левый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки шестая строка левый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group main settings fifth row left column</v8:content>
+																							<v8:content>Allure group main settings sixth row left column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp huvudinställningar femte raden vänster kolumn</v8:content>
+																							<v8:content>Allure-grupp huvudinställningar sjätte raden vänster kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Width>50</Width>
 																					<HorizontalStretch>false</HorizontalStretch>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиПятаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3660"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиШестаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3660"/>
 																					<ChildItems>
 																						<CheckBoxField name="ТегиПропускающиеСценарийAllure" id="2742">
 																							<DataPath>Объект.ТегиПропускающиеСценарийAllure</DataPath>
@@ -22637,24 +22740,24 @@ This option should be used with caution, as it requires additional resources to 
 																						</CheckBoxField>
 																					</ChildItems>
 																				</UsualGroup>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиПятаяСтрокаПравыйСтолбец" id="3661">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиШестаяСтрокаПравыйСтолбец" id="3661">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки пятая строка правый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки шестая строка правый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group main settings fifth row left column</v8:content>
+																							<v8:content>Allure group main settings sixth row right column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp huvudinställningar femte raden vänster kolumn</v8:content>
+																							<v8:content>Allure-grupp huvudinställningar sjätte raden höger kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиПятаяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3662"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиШестаяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3662"/>
 																					<ChildItems>
 																						<InputField name="ГруппировкаTestSuites" id="2148">
 																							<DataPath>Объект.ГруппировкаTestSuites</DataPath>
@@ -22683,65 +22786,65 @@ This option should be used with caution, as it requires additional resources to 
 																				</UsualGroup>
 																			</ChildItems>
 																		</UsualGroup>
-																		<UsualGroup name="ГруппаAllureОсновныеНастройкиШестаяСтрока" id="3901">
+																		<UsualGroup name="ГруппаAllureОсновныеНастройкиСедьмаяСтрока" id="3901">
 																			<Title>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
-																					<v8:content>Группа allure основные настройки шестая строка</v8:content>
+																					<v8:content>Группа allure основные настройки седьмая строка</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>en</v8:lang>
-																					<v8:content>Allure group basic settings sixth line</v8:content>
+																					<v8:content>Allure group basic settings seventh line</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>sv</v8:lang>
-																					<v8:content>Allure-grupp grundinställningar sjätte raden</v8:content>
+																					<v8:content>Allure-grupp grundinställningar sjunde raden</v8:content>
 																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
 																			<Representation>None</Representation>
 																			<ShowTitle>false</ShowTitle>
-																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиШестаяСтрокаРасширеннаяПодсказка" id="3902"/>
+																			<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиСедьмаяСтрокаРасширеннаяПодсказка" id="3902"/>
 																			<ChildItems>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиШестаяСтрокаЛевыйСтолбец" id="3903">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиСедьмаяСтрокаЛевыйСтолбец" id="3903">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки шестая строка левый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки седьмая строка левый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group main settings sixth row left column</v8:content>
+																							<v8:content>Allure group main settings seventh row left column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp huvudinställningar sjätte raden vänster kolumn</v8:content>
+																							<v8:content>Allure-grupp huvudinställningar sjunde raden vänster kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Width>50</Width>
 																					<HorizontalStretch>false</HorizontalStretch>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиШестаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3904"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиСедьмаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3904"/>
 																				</UsualGroup>
-																				<UsualGroup name="ГруппаAllureОсновныеНастройкиШестаяСтрокаПравыйСтолбец" id="3908">
+																				<UsualGroup name="ГруппаAllureОсновныеНастройкиСедьмаяСтрокаПравыйСтолбец" id="3908">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Группа allure основные настройки шестая строка правый столбец</v8:content>
+																							<v8:content>Группа allure основные настройки седьмая строка правый столбец</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Allure group main settings sixth row left column</v8:content>
+																							<v8:content>Allure group main settings seventh row right column</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>sv</v8:lang>
-																							<v8:content>Allure-grupp huvudinställningar sjätte raden vänster kolumn</v8:content>
+																							<v8:content>Allure-grupp huvudinställningar sjunde raden höger kolumn</v8:content>
 																						</v8:item>
 																					</Title>
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
-																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиШестаяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3909"/>
+																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиСедьмаяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3909"/>
 																				</UsualGroup>
 																			</ChildItems>
 																		</UsualGroup>
@@ -26278,11 +26381,11 @@ För att alternativet ska fungera måste du aktivera användningen av VanessaExt
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>en</v8:lang>
-																					<v8:content>Group selection of color for highlighting mouse clicks left column</v8:content>
+																					<v8:content>Group selection of color for highlighting mouse clicks right column</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>sv</v8:lang>
-																					<v8:content>Grupp val av färg för markering av musklick vänster kolumn</v8:content>
+																					<v8:content>Grupp val av färg för markering av musklick höger kolumn</v8:content>
 																				</v8:item>
 																			</Title>
 																			<Group>AlwaysHorizontal</Group>
@@ -28645,6 +28748,30 @@ Om du bara behöver ta en skärmbild för en grupp steg kan du ange taggen @scre
 																															<xr:Value xsi:type="FormChoiceListDesTimeValue">
 																																<Presentation/>
 																																<Value xsi:type="xs:string">Ирина</Value>
+																															</xr:Value>
+																														</xr:Item>
+																														<xr:Item>
+																															<xr:Presentation/>
+																															<xr:CheckState>0</xr:CheckState>
+																															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																																<Presentation/>
+																																<Value xsi:type="xs:string">Артем-hd</Value>
+																															</xr:Value>
+																														</xr:Item>
+																														<xr:Item>
+																															<xr:Presentation/>
+																															<xr:CheckState>0</xr:CheckState>
+																															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																																<Presentation/>
+																																<Value xsi:type="xs:string">Ирина-hd</Value>
+																															</xr:Value>
+																														</xr:Item>
+																														<xr:Item>
+																															<xr:Presentation/>
+																															<xr:CheckState>0</xr:CheckState>
+																															<xr:Value xsi:type="FormChoiceListDesTimeValue">
+																																<Presentation/>
+																																<Value xsi:type="xs:string">Егор-hd</Value>
 																															</xr:Value>
 																														</xr:Item>
 																													</ChoiceList>
@@ -34537,6 +34664,36 @@ Då snabbas videon i exemplet ovan upp (10 * (1-0.3)) från 10 till 7 sekunder.<
 																						</Title>
 																					</ExtendedTooltip>
 																				</InputField>
+																				<InputField name="ЗаписьВидеоСкоростьПроизношенияТекстаБезОзвучки" id="4536">
+																					<DataPath>Объект.ЗаписьВидеоСкоростьПроизношенияТекстаБезОзвучки</DataPath>
+																					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																					<AutoMaxWidth>false</AutoMaxWidth>
+																					<SpinButton>true</SpinButton>
+																					<ContextMenu name="ЗаписьВидеоСкоростьПроизношенияТекстаБезОзвучкиКонтекстноеМеню" id="4537"/>
+																					<ExtendedTooltip name="ЗаписьВидеоСкоростьПроизношенияТекстаБезОзвучкиРасширеннаяПодсказка" id="4538">
+																						<AutoMaxWidth>false</AutoMaxWidth>
+																						<Title formatted="false">
+																							<v8:item>
+																								<v8:lang>ru</v8:lang>
+																								<v8:content>Скорость произношения текста без озвучки (символов в секунду).
+Используется для расчета длительности шага видео, если озвучка не делается.
+Значение по умолчанию - 15.</v8:content>
+																							</v8:item>
+																							<v8:item>
+																								<v8:lang>en</v8:lang>
+																								<v8:content>Speech rate of text without voice-over (characters per second).
+Used to calculate the duration of a video step when no voice-over is made.
+Default value is 15.</v8:content>
+																							</v8:item>
+																							<v8:item>
+																								<v8:lang>sv</v8:lang>
+																								<v8:content>Talhastighet för text utan röst (tecken per sekund).
+Används för att beräkna längden på ett videosteg när ingen röst spelas in.
+Standardvärdet är 15.</v8:content>
+																							</v8:item>
+																						</Title>
+																					</ExtendedTooltip>
+																				</InputField>
 																				<UsualGroup name="ГруппаРазличныеНастройкиВидео" id="2075">
 																					<Title>
 																						<v8:item>
@@ -36107,11 +36264,11 @@ Om alternativet är aktiverat visas två kolumner, annars visas skillnaderna i f
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>vanessa editor setup page fourth row left column</v8:content>
+																	<v8:content>vanessa editor setup page fourth row right column</v8:content>
 																</v8:item>
 																<v8:item>
 																	<v8:lang>sv</v8:lang>
-																	<v8:content>Vanessa-redigerarinställningssida fjärde raden vänster kolumn</v8:content>
+																	<v8:content>Vanessa-redigerarinställningssida fjärde raden höger kolumn</v8:content>
 																</v8:item>
 															</Title>
 															<Representation>None</Representation>
@@ -37158,11 +37315,11 @@ Om röstfilen inte hittas i katalogen startas processen för att generera röstn
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>Setting page other first row left column</v8:content>
+																	<v8:content>Setting page other first row right column</v8:content>
 																</v8:item>
 																<v8:item>
 																	<v8:lang>sv</v8:lang>
-																	<v8:content>Inställningssida övrigt första raden vänster kolumn</v8:content>
+																	<v8:content>Inställningssida övrigt första raden höger kolumn</v8:content>
 																</v8:item>
 															</Title>
 															<Representation>None</Representation>
